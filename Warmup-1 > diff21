@@ -1,0 +1,9 @@
+def diff(num):
+    if num <= 21:
+        return 21 - num
+    else:
+        return 2 * (21- 23)
+
+
+num = int(input())
+print(diff(num))
