@@ -1,0 +1,7 @@
+char= input()
+num = int(input())
+def missing_char(str, n):
+    front = str[:n]
+    back = str[n+1]
+    return front + back
+print(missing_char(char,num))
