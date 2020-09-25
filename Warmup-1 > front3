@@ -1,0 +1,5 @@
+def front3(str):
+    a= str[:3]
+    b= a+a+a
+    return b
+print(front3(input()))
