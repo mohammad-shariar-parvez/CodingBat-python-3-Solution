@@ -1,0 +1,13 @@
+def front_times(str, n):
+    front = 3
+    if front > len(str):
+        front = len(str)
+    front = str[:3]
+
+    result = ''
+    for i in range(n):
+        result = result + front
+    return result
+
+
+print(front_times(letter,number))
