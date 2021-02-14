@@ -1,0 +1,46 @@
+def array_count(list1):
+    count = 0
+    nine =9
+    for i in range(len(list1[:4])) :
+        if nine ==list1[i]:
+            count = count+1
+    return count
+
+list1 = [1, 9, 9, 3, 9,9]
+print(array_count(list1))
+
+#---------------------------------------------------------
+def array_count(list1):
+    count = 0
+    nine =9
+    end = len(list1)
+    if end >4 :
+        end =4 
+
+    for i in range(end) :
+        if  nine ==list1[i] :
+            count = count+1
+    return count
+
+list1 = [1, 9, 9, 3, 9,9]
+print(array_count(list1))
+
+
+
+
+# WITH BREAK-----------------------------------------------
+def array_count(list1):
+    count = 0
+    nine =9
+    end = len(list1)
+
+    for i in range(end) :
+        if i ==4 :
+            break
+        else:
+            nine ==list1[i]
+            count = count+1
+    return count
+
+list1 = [1, 9, 9, 3, 9,9]
+print(array_count(list1))
