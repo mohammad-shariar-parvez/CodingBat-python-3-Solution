@@ -1,0 +1,9 @@
+def hello_name(name):
+
+    return "Hello "+name+"!"
+name =input()
+print(hello_name(name))
+print(type(hello_name(name)))
+
+"""if we would use  return "Hello","name","!" it became tauple ,
+   but string concatanation  we get string value"""
