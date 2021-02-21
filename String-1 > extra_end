@@ -1,0 +1,9 @@
+def make_out_word(out, word):
+    if len(out)<4 :
+        return "Need 4 string"
+
+    return out[:2]+word+out[2:]
+
+out ='<<>>'
+word ='WooHoo'
+print(make_out_word(out,word))
