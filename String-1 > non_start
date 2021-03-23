@@ -1,0 +1,10 @@
+def non_start(a, b):
+
+
+    if len(a)>=1 and len(b)>=1 :
+        a = a[1:]
+        b = b[:-1]
+        return a+b
+
+
+print(non_start("ami","tumi"))
