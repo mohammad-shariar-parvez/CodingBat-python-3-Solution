@@ -1,0 +1,10 @@
+def left2(st):
+
+    if len(st) >= 2:
+        a = st[:2]
+        b = st[2:]
+
+        return b+ a
+
+
+print(left2("Done"))
