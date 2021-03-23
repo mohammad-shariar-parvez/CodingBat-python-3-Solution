@@ -1,0 +1,9 @@
+def first_half(get):
+    a = len(get)
+    summ = int(a / 2)
+
+    return get[:summ]
+
+
+get = input()
+print(first_half(get))
