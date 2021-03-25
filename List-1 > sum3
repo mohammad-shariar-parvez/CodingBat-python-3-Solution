@@ -1,0 +1,7 @@
+def sum3(nums):
+    su = 0
+    for i in nums :
+        su = i +su
+    return su
+
+print(sum3([5, 11, 2]))
