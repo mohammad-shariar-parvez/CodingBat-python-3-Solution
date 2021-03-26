@@ -1,0 +1,11 @@
+def max_end3(nums):
+    new = []
+    if nums[0] > nums[-1] :
+        new.append(nums[0])
+        return new*3
+
+    elif nums[0] < nums[-1] :
+        new.append(nums[-1])
+        return new*3
+
+print(max_end3([9,6,10]))
