@@ -9,3 +9,11 @@ def max_end3(nums):
         return new*3
 
 print(max_end3([9,6,10]))
+
+#######ALTERNATIVE SOLUTION WITH msx FUNCTION   #########
+
+def max_end3(nums):
+
+  return [nums[0]]*3
+
+print(max_end3([10,8,6,10]))
