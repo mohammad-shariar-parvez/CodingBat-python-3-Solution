@@ -1,0 +1,17 @@
+def middle_way(a, b):
+
+    x= int(len(a)/2)
+    y = int(len(b)/2)
+    return [a[x], b[y]]
+
+print(middle_way([2,3,4],[4,5,6]))
+
+""" If requrement is ask for no limitation of list length"""
+
+def middle_way(a, b):
+
+    x= int(len(a)/2)
+    y = int(len(b)/2)
+    return [a[x]],b[y]]
+
+print(middle_way([2,3,4],[4,5,6]))
