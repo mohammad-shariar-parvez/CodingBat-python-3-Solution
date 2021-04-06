@@ -1,0 +1,7 @@
+def in1to10(n, outside_mode):
+  if outside_mode:
+    return  1 >=n or n>=10
+  else:
+    return 1 <= n <=10
+
+print(in1to10(11,True))
