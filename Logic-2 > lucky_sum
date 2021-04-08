@@ -7,3 +7,16 @@ def lucky_sum(a, b, c):
     return a+b
   else:
     return a+b+c
+############################## OR
+def lucky_sum(a, b, c):
+  sum = 0
+  li = [a,b,c]
+  for i in li :
+    if li[i] ==13 :
+      break
+
+    else:
+      sum = sum + li[i]
+  return sum
+
+print(lucky_sum(2,13,1))
