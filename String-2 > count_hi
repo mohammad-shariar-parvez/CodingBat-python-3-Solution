@@ -1,0 +1,23 @@
+############ 1st way
+
+def count_hi(str):
+    container = 0
+    for i in range(len(str)) :
+        if str[i :i+2] ==  "hi" :
+            container = container + 1
+
+    return container
+
+
+
+
+
+print(count_hi("Bangladeshi"))
+ #################################### 2nd way
+def count_hi(str):
+    return str.count("hi")
+
+
+
+
+print(count_hi("Bangladeshi"))
