@@ -1,0 +1,47 @@
+############### 1st way
+
+def xyz_there(str):
+
+
+    if str[0:3] == "xyz" :
+        return True
+
+    for i in range(1,len(str)) :
+
+        if str[i : i+3] =="xyz" and str[i-1] !=  "." :
+            return True
+    return False
+
+
+print(xyz_there('xyz.abc'))
+
+############################################ 2nd way
+
+def xyz_there(str):
+
+  a,b = str.count('xyz'),str.count('.xyz')
+
+  if a!=b:
+
+    return True
+
+  return False
+print(xyz_there('yz.xyzxyz'))
+
+#################### 3rd way
+def xyz_there(str):
+
+     return str.count("xyz") - str.count(".xyz") > 0
+    
+print(xyz_there('xyz.abc'))
+
+
+
+################## 4th way
+
+def xyz_there(str):
+
+    return str.replace(".xyz","").find("xyz") >= 0
+    
+print(xyz_there('xyz.abc'))
+
