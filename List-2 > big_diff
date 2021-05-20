@@ -1,0 +1,16 @@
+def big_diff(nums):
+    nums.sort()
+    f =nums[:1]
+    l = nums [-1 :]
+    add =nums[:1] + nums [-1 :]
+    container = 0
+    for i in add:
+        container = i - container
+
+
+    return container
+
+
+
+nums = [8,2]
+print(big_diff(nums))
